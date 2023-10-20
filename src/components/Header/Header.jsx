@@ -10,8 +10,6 @@ const Header = () => {
 
   const[menuOpened, setMenuOpened] = useState(false);
 
-  
-
   return (
     <div className='header'>
         <img src={logo} alt='' className='logo'/>
@@ -54,8 +52,7 @@ const Header = () => {
             smooth={true}>Testimonials</Link></li>
         </ul>}
 
-      
-    </div>
+</div>
   )
 }
 
